@@ -1,0 +1,698 @@
+whoami
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y docker.io
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt update && sudo apt -y upgrade
+curl -fsSL test.docker.com -o get-docker.sh && sh get-docker.sh
+sudo apt install curl
+sudo apt nano
+sudo apt-get nano
+homebrew
+ls
+python '/home/kaan/Downloads/proton-vpn-gtk-app-4.9.6/setup.py' 
+python3 '/home/kaan/Downloads/proton-vpn-gtk-app-4.9.6/setup.py' 
+sudo apt-get update~
+sudo apt-get update
+sudo systemctl start sshd
+sudo apt install openssh-server
+nc -l -p 5000
+echo "Hello, World!" | nc 10.10.0.3 5000
+echo "Hello, World!" | nc 10.10.0.4 5000
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo apt-get update
+zsh
+sudo apt install zsh
+brew install zsh
+cd ..
+sudo apt install zsh
+brew install zsh
+zsh
+curl -fsSL test.docker.com -o get-docker.sh && sh get-docker.sh
+docker --version
+docker run hello-world
+sudo usermod -aG docker $USER
+nono /etc/netplan/01-netcfg.yaml
+vim /etc/netplan/01-netcfg.yaml
+cd /etc/netplan/01-netcfg.yaml
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ping -c 3 10.10.0.1
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ip addr show enp0s1
+ip route show
+cat <<EOF | sudo tee -a /etc/hosts
+# Kubernetes Servers
+10.10.0.11 k8smaster
+10.10.0.12 master2
+10.10.0.101 node1
+10.10.0.102 node2
+EOF
+
+ping -c 3 10.10.0.12
+ip addr show enp0s1
+clear
+ip addr show enp0s1
+ip route show
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip route show
+ping -c 10.10.0.12
+ping -c 3 10.10.0.12
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+ping -c 3 10.10.0.12
+sudo ufw disable
+ping -c 3 10.10.0.12
+sudo ufw enable
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ping -c 3 10.10.0.12
+sudo systemctl restart systemd-networkd
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo systemctl restart systemd-networkd
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+ip addr show enp0s1
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+ip addr show enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ip addr show enp0s1
+ping -c 3 10.10.0.12
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ip addr show enp0s1
+ping -c 3 10.10.0.12
+ping -c 3 10.10.0.11
+ping -c 3 10.10.0.10
+arp -a
+ip addr show enp0s1
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+ip addr show enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+ip addr show enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+sudo nmcli con mod "Wired connection 1" ipv4.method manual
+sudo nmcli con up "Wired connection 1"
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo systemctl restart systemd-networkd
+ip addr show enp0s1
+ip addr show
+ping -c 3 10.10.0.10
+ping -c 3 10.10.0.11
+ping -c 3 10.10.0.12
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+sudo nmcli con mod "Wired connection 1" ipv4.method manual
+sudo nmcli con up "Wired connection 1"
+sudo netplan apply
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo systemctl restart systemd-networkd
+ip addr show enp0s1
+ps aux | grep dhclient
+sudo killall dhclient
+ps aux | grep dhclient
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+ps aux | grep dhclient
+sudo killall dhclient
+sudo netplan apply
+nmcli con show
+sudo nmcli con mod "netplan-enp0s1" ipv4.method manual ipv4.addresses 10.10.0.11/24 ipv4.gateway 10.10.0.1 ipv4.dns "8.8.8.8,8.8.4.4"
+sudo nmcli con up "netplan-enp0s1"
+nmcli con show "netplan-enp0s1"
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo systemctl restart systemd-networkd
+ip addr show enp0s1
+ping -c 3 10.10.0.10
+ping -c 3 10.10.0.11
+ping -c 3 10.10.0.12
+hostname
+sudo hostnamectl set-hostname k8smaster
+hostname
+sudo nano /etc/hosts
+sudo swapoff -a
+sudo sed -i '/ swap / s/^/#/' /etc/fstab
+sudo apt install -y apt-transport-https curl
+apt update
+sudo apt update
+pwd
+aarch
+arm
+whereami
+whoami
+-s 
+s -
+superuser
+sudo
+-rm -rf 
+sudo apt-get update
+sudo apt-get upgrade
+curl -fsSL test.docker.com -o get-docker.sh && sh get-docker.sh
+sudo usermod -aG docker $USER
+sudo apt-get docker
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+sudo rm -rf /var/lib/docker
+sudo rm /etc/apt/sources.list.d/docker.list
+sudo rm /etc/apt/keyrings/docker.asc
+sudo rm -rf /var/lib/containerd
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
+docker ps
+sudo docker ps
+docker --version
+sudo nano /etc/apt/sources.list
+sudo nano /etc/apt/sources.list.d/ubuntu.sources
+go get github.com/kubernetes-incubator/cri-tools/cmd/crictl
+sudo snap install go
+sudo snap install go --classic
+go get github.com/kubernetes-incubator/cri-tools/cmd/crictl
+go install github.com/kubernetes-incubator/cri-tools/cmd/crictl
+go install github.com/kubernetes-incubator/cri-tools/cmd/crictl@latest
+go install github.com/cri-tools/cmd/crictl@latest
+sudo journalctl -u snap.kubelet.daemon.service -f
+clear
+curl http://127.0.0.1:10248/healthz
+sudo cat /etc/kubernetes/manifests/kube-controller-manager.yaml
+sudo cat /etc/kubernetes/manifests/kube-scheduler.yaml
+sudo cat /etc/kubernetes/manifests/etcd.yaml
+sudo cat /etc/containerd/config.toml
+sudo nano /etc/containerd/config.toml
+sudo systemctl restart containerd
+sudo lsof -i :6443
+sudo lsof -i :10257
+sudo lsof -i :10259
+sudo systemctl restart snap.kubelet.daemon.service
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+curl -k https://10.10.0.11:6443/livez
+curl -k https://127.0.0.1:10257/healthz
+ip addr show
+clear
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y apt-transport-https ca-certificates curl
+apt modernize-sources
+sudo apt modernize-sources
+sudo swapoff -a
+sudo sed -i '/ swap / s/^/#/' /etc/fstab
+sudo nano /etc/hosts
+sudo apt install -y docker.io
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo nano /etc/docker/daemon.json
+sudo systemctl restart docker
+docker status
+docker ps
+sudo docker ps
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+sudo apt update
+sudo apt install -y kubelet kubeadm kubectl
+sudo apt-mark hold kubelet kubeadm kubectl
+snap install kubeadm
+sudo apt update
+sudo apt install -y snapd
+sudo snap install kubeadm --classic
+sudo snap install kubectl --classic
+sudo snap install kubelet --classic
+kubeadm version
+kubectl version --client
+kubelet --version
+sudo apt update
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+systemctl enable kubelet.service
+sudo systemctl enable snap.kubelet.daemon.service
+sudo systemctl status snap.kubelet.daemon
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+systemctl enable kubelet.service
+systemctl enable snap.kubelet.service
+sudo systemctl enable snap.kubelet.daemon.service
+sudo systemctl enable snap.kubelet.daemon
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo kubeadm reset
+sudo rm -rf /etc/kubernetes/
+sudo rm -rf /var/lib/etcd
+sudo lsof -i :10250
+sudo systemctl stop kubelet
+sudo systemctl stop snap.deamon.kubelet
+sudo systemctl stop snap.kubelet.service
+sudo systemctl stop snap.kubelet.daemon.service
+sudo lsof -i :10250
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+VERSION="v1.33.0"  # Replace with the version matching your Kubernetes version
+curl -LO https://github.com/kubernetes-sigs/cri-tools/releases/download/$VERSION/crictl-$VERSION-linux-arm64.tar.gz
+sudo tar -C /usr/local/bin -xzf crictl-$VERSION-linux-arm64.tar.gz
+crictl --version
+sudo nano /etc/crictl.yaml
+sudo crictl ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock logs <CONTAINERID>
+sudo journalctl -u snap.kubelet.daemon.service -f
+curl -k https://10.10.0.11:6443/livez
+curl -k https://127.0.0.1:10257/healthz
+curl -k https://127.0.0.1:10259/livez
+sudo systemctl restart snap.kubelet.daemon.service
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo kubeadm reset
+sudo rm -rf /etc/kubernetes/
+sudo rm -rf /var/lib/etcd
+sudo lsof -i :10250
+sudo kill -9 9193
+sudo lsof -i :10250
+sudo systemctl restart snap.kubelet.daemon.service
+sudo systemctl enable snap.kubelet.daemon.service
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16 --ignore-preflight-errors=Port-10250,FileAvailable--etc-kubernetes-manifests-kube-apiserver.yaml,FileAvailable--etc-kubernetes-manifests-kube-controller-manager.yaml,FileAvailable--etc-kubernetes-manifests-kube-scheduler.yaml,FileAvailable--etc-kubernetes-manifests-etcd.yaml
+crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock logs
+curl -k https://10.10.0.11:6443/livez
+curl -k https://127.0.0.1:10257/healthz
+curl -k https://127.0.0.1:10259/livez
+sudo systemctl status containerd
+sudo systemctl enable containerd
+sudo systemctl status snap.kubelet.daemon.service
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+ls -l /etc/kubernetes/manifests/
+sudo ls -l /etc/kubernetes/manifests/
+sudo netstat -tuln | grep -E "6443|10257|10259"
+sudo netstat -tuln 
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube
+sudo systemctl daemon-reload
+sudo systemctl restart snap.kubelet.daemon.service
+sudo apt install net-tools
+sudo journalctl -u snap.kubelet.daemon.service -f
+sudo cat /etc/kubernetes/manifests/kube-apiserver.yaml
+sudo cat /etc/kubernetes/manifests/kube-controller-manager.yaml
+sudo ls -l /etc/kubernetes/manifests/
+sudo cat /etc/kubernetes/manifests/kube-scheduler.yaml
+sudo cat /etc/kubernetes/manifests/etcd.yaml
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo systemctl status containerd
+ls -l /var/run/containerd/containerd.sock
+sudo cat /var/lib/kubelet/config.yaml
+sudo nano /var/lib/kubelet/config.yaml
+sudo systemctl restart snap.kubelet.daemon.service
+sudo journalctl -u snap.kubelet.daemon.service -f
+sudo netstat -tuln | grep -E "6443|10257|10259"
+sudo ufw allow 6443
+sudo ufw allow 10257
+sudo ufw allow 10259
+sudo netstat -tuln | grep -E "6443|10257|10259"
+sudo kubeadm reset
+sudo systemctl stop snap.kubelet.daemon.service
+sudo rm -rf /etc/cni/net.d
+sudo iptables -F
+sudo iptables -t nat -F
+sudo iptables -t mangle -F
+sudo iptables -X
+ip link show
+sudo reboot
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+sudo reboot
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+clear
+sudo apt-get update
+# apt-transport-https may be a dummy package; if so, you can skip that package
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
+sudo apt-get update
+clear
+sudo apt update
+sudo apt-get update
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
+curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.33/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+sudo chmod 644 /etc/apt/keyrings/kubernetes-apt-keyring.gpg # allow unprivileged APT programs to read this keyring
+clear
+kubectl cluster-info
+kubectl cluster-info dump
+sudo rm /usr/local/bin/kubectl/
+sudo rm /usr/local/bin/kubectl
+kubectl cluster-info dump
+kubectl cluster-info
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+kubectl version --client
+curl -Ls "https://sbom.k8s.io/$(curl -Ls https://dl.k8s.io/release/stable.txt)/release" | grep "SPDXID: SPDXRef-Package-registry.k8s.io" |  grep -v sha256 | cut -d- -f3- | sed 's/-/\//' | sed 's/-v1/:v1/'
+sudo mv kubeadm /usr/local/bin/
+sudo mv kubectl /usr/local/bin/
+sudo mv kubelet /usr/local/bin/
+sudo mv '/home/kaan/Downloads/kubelet' /usr/local/bin/
+sudo mv '/home/kaan/Downloads/kubeadm' usr/local/bin/
+sudo mv '/home/kaan/Downloads/kubeadm' /usr/local/bin/
+sudo add-apt-repository universe
+clear
+sudo vi /etc/apt/sources.list
+ls ~/.kube/config
+kubectl get nodes
+echo $KUBECONFIG
+nano ~/.kube/config
+ls /etc/kubernetes/admin.conf
+sudo ls /etc/kubernetes/admin.conf
+export KUBECONFIG=/etc/kubernetes/admin.conf
+kubectl get nodes
+sudo kubectl get nodes
+mkdir -p ~/.kube
+sudo cp /etc/kubernetes/admin.conf ~/.kube/config
+sudo chown $(id -u):$(id -g) ~/.kube/config
+kubectl get nodes
+sudo kubectl get nodes
+kubectl config view --raw
+sudo kubectl config view --raw
+mkdir -p ~/.kube
+sudo cp /etc/kubernetes/admin.conf ~/.kube/config
+sudo chown $(id -u):$(id -g) ~/.kube/config
+kubectl get nodes
+sudo kubectl get nodes
+nano ~/.kube/config
+sudo nano /etc/kubernetes/manifests/kube-apiserver.yaml
+sudo kubectl get nodes
+nano ~/.kube/config
+kubectl port
+nano ~/.kube/config
+mkdir -p $HOME/.kube
+cat ~/.kube/config
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             sudo hostnamectl set-hostname master1
+cat /etc/hosts
+nano /etc/hosts
+sudo nano /etc/hosts
+sudo nano /etc/netplan/01-netcfg.yaml
+netplan appy
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo nmcli con mod "netplan-enp0s1" ipv4.method manual ipv4.addresses 10.10.0.12/24 ipv4.gateway 10.10.0.1 ipv4.dns "8.8.8.8,8.8.4.4"
+sudo nmcli con up "netplan-enp0s1
+sudo nmcli con up "netplan-enp0s1"
+nmcli con show "netplan-enp0s1"
+sudo systemctl restart systemd-networkd
+hostname
+sudo rm /etc/kubernetes/admin.conf
+kubectl get nodes -o wide
+kubectl get clusterroles
+kubectl 
+kubectl status
+kubectl version
+sudo kubeadm join 127.0.0.1:6443 --token lncqi4.haem3sy83ahbgbjz --discovery-token-ca-cert-hash sha256:6ff20fda31e0197fd29b21e5b8f153d4559982874ef28e5f8bf46d532de2bca3
+sudo kubeadm reset
+sudo kubeadm join k8smaster:6443 --token lncqi4.haem3sy83ahbgbjz --discovery-token-ca-cert-hash sha256:6ff20fda31e0197fd29b21e5b8f153d4559982874ef28e5f8bf46d532de2bca3
+sudo systemctl stop kubelet
+sudo lsof -i :10250
+sudo kill 1359
+sudo lsof -i :10250
+sudo kubeadm join k8smaster:6443 --token lncqi4.haem3sy83ahbgbjz --discovery-token-ca-cert-hash sha256:6ff20fda31e0197fd29b21e5b8f153d4559982874ef28e5f8bf46d532de2bca3
+sudo lsof -i :10250
+sudo systemctl disable kubelet
+sudo systemctl stop kubelet
+sudo pkill kubelet
+sudo lsof -i :10250
+sudo kubeadm join k8smaster:6443 --token lncqi4.haem3sy83ahbgbjz --discovery-token-ca-cert-hash sha256:6ff20fda31e0197fd29b21e5b8f153d4559982874ef28e5f8bf46d532de2bca3
+sudo lsof -i :10250
+sudo snap stop kubelet
+sudo snap disable kubelet
+ps aux | grep kubelet
+sudo kubeadm reset
+sudo snap remove k8s
+sudo reboot
+sudo nano /etc/hosts
+kubectl get nodes
+sudo nmcli con mod "netplan-enp0s1" ipv4.method manual ipv4.addresses 10.10.0.101/24 ipv4.gateway 10.10.0.1 ipv4.dns "8.8.8.8,8.8.4.4" sudo nmcli con up "netplan-enp0s1"
+sudo nmcli con mod "netplan-enp0s1" ipv4.method manual ipv4.addresses 10.10.0.101/24 ipv4.gateway 10.10.0.1 ipv4.dns "8.8.8.8,8.8.4.4"
+sudo nmcli con up "netplan-enp0s1"
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo systemctl restart systemd-networkd
+hostname
+cat /etc/hosts
+sudo hostnamectl set-hostname node1
+hostname
+sudo kubeadm join 10.10.0.11:6443 --token tadfd6.1x0bjwr74znlgt8s --discovery-token-ca-cert-hash sha256:e761ee5161472dc08221fadfee1e253daadaa04ebcd5a9b53c14664773bf8d47
+sudo systemctl stop kubelet
+sudo systemctl stop containerd
+sudo rm -rf /etc/kubernetes
+sudo rm -rf /var/lib/kubelet
+sudo rm -rf /var/lib/etcd
+sudo rm -rf /var/lib/cni
+sudo rm -rf /etc/cni
+sudo snap stop kubelet
+sudo rm -rf /etc/kubernetes
+sudo rm -rf /var/lib/kubelet
+sudo rm -rf /var/lib/etcd
+sudo rm -rf /var/lib/cni
+sudo rm -rf /etc/cni
+sudo snap services
+sudo umount /var/lib/kubelet/pods/206f86ca-122c-4dae-b43a-57ec6b238a34/volumes/kubernetes.io~projected/kube-api-access-88kxx
+sudo umount /var/lib/kubelet/pods/74764966-5f6d-45db-bd89-ad3fb41f115d/volumes/kubernetes.io~projected/kube-api-access-bz66j
+sudo rm -rf /var/lib/kubelet
+sudo lsof -i :10250
+sudo systemctl start containerd
+sudo systemctl start kubelet
+sudo snap start kubelet
+sudo kubeadm join 10.10.0.11:6443 --token tadfd6.1x0bjwr74znlgt8s --discovery-token-ca-cert-hash sha256:e761ee5161472dc08221fadfee1e253daadaa04ebcd5a9b53c14664773bf8d47
+ip addr
+kubectl config set-cluster kubernetes   --certificate-authority=/etc/kubernetes/pki/ca.crt   --server=https://10.10.0.11:6443   --kubeconfig=nsreader.conf
+kubectl config set-credentials nsreader   --client-certificate=nsreader.crt   --client-key=nsreader.key   --kubeconfig=nsreader.conf
+kubectl config set-context nsreader@kubernetes   --cluster=kubernetes   --user=nsreader   --kubeconfig=nsreader.conf
+kubectl config use-context nsreader@kubernetes --kubeconfig=nsreader.conf
+mkdir -p $HOME/.kube
+cp <user>.conf $HOME/.kube/config
+cp nsreader.conf $HOME/.kube/config
+kubectl get pods -n dev
+kubectl get pods 
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.crt ~/
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.key ~/
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.conf ~/
+sudo apt install openssh-server
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.crt ~/
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.key ~/
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.conf ~/
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.crt ~/
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.key ~/
+scp kaan@10.10.0.11:~/k8s-certs/nsreader.conf ~/
+kubectl get pods 
+mkdir -p $HOME/.kube
+cp ~/nsreader.conf $HOME/.kube/config
+mv ~/nsreader.crt ~/nsreader.key $HOME/.kube/
+kubectl get pods 
+kubectl get pods -n dev
+kubectl get pods 
+kubectl get nodes
+kubectl get nodes -n dev
+kubectl get pods -n dev
+kubectl get pods 
+kubectl get pods -n dev
+ls /opt/cni/bin
+sudo ls /opt/cni/bin
+sudo systemctl restart kubelet
+sudo snap restart kubelet
+sudo systemctl restart kubelet
+ssh kaan@10.10.0.11
+sudo mkdir -p /opt/cni/bin
+sudo apt update
+sudo apt install -y containernetworking-plugins
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+sudo mkdir -p /opt/cni/bin
+curl -L https://github.com/containernetworking/plugins/releases/download/v1.3.0/cni-plugins-linux-arm64-v1.3.0.tgz | sudo tar -C /opt/cni/bin -xz
+sudo systemctl status kubelet
+sudo systemctl restart kubelet
+sudo ufw status
+sudo ufw allow 10250/tcp
+status
+system status
+sudo echo "vm.swappiness=0" | sudo tee --append /etc/sysctl.conf
+sudo swapoff -a
+free -m
+sudo sed -i '/swap/s/^\(.*\)$/#\1/g' /etc/fstab
+ls -l /dev/vdb
+ls -l /var/lib/ceph/osd/ceph-0/keyring
+sudo ls -l /var/lib/ceph/osd/ceph-0/keyring
+kubectl get secret rook-ceph-admin-keyring -n rook-ceph
+kubectl describe secret rook-ceph-admin-keyring -n rook-ceph
+sudo ufw disable
+sudo ls -l /etc/cni/net.d/
+sudo cat /etc/cni/net.d/10-flannel.conflist
+sudo ufw status
+sudo iptables -L
+clear
+sudo ufw status
+sudo iptables -L
+lsmod | grep vxlan
+clear
+kubectl logs -n kube-flannel kube-flannel-ds-dzlpc
+sudo chmod 755 /opt/cni/bin
+sudo chown root:root /opt/cni/bin
+ls -l /opt/cni/bin
+sudo ls -l /opt/cni/bin
+sudo reboot
+sudo nano /etc/hosts
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo nmcli con mod "netplan-enp0s1" ipv4.method manual ipv4.addresses 10.10.0.101/24 ipv4.gateway 10.10.0.1 ipv4.dns "8.8.8.8,8.8.4.4"
+sudo nmcli con up "netplan-enp0s1"
+sudo ip addr del 10.10.0.12/24 dev enp0s1
+sudo nano /etc/hosts
+sudo kubeadm reset -f
+sudo ip link delete flannel.1
+sudo ip link delete cni0
+sudo rm -rf /var/lib/cni/
+sudo rm -rf /run/flannel/
+sudo rm -rf /etc/kubernetes
+sudo rm -rf /var/lib/kubelet
+sudo rm -rf /var/lib/etcd
+sudo reboot
+sudo kubeadm token create --print-join-command
+kubeadm join 10.10.0.11:6443 --token 5o1rsz.xl06qdntmkgpzyi3 --discovery-token-ca-cert-hash sha256:e761ee5161472dc08221fadfee1e253daadaa04ebcd5a9b53c14664773bf8d47
+clear
+sudo kubeadm token create --print-join-command
+kubeadm join 10.10.0.11:6443 --token 5o1rsz.xl06qdntmkgpzyi3 --discovery-token-ca-cert-hash sha256:e761ee5161472dc08221fadfee1e253daadaa04ebcd5a9b53c14664773bf8d47
+clear
+sudo kubeadm join 10.10.0.11:6443 --token 5o1rsz.xl06qdntmkgpzyi3 --discovery-token-ca-cert-hash sha256:e761ee5161472dc08221fadfee1e253daadaa04ebcd5a9b53c14664773bf8d47
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+sudo kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+sudo reboot
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+sudo kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+sudo kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml --validate=false
+sudo journalctl -u containerd | tail -n 100
+sudo systemctl status docker
+sudo systemctl restart containerd
+sudo systemctl restart kubelet
+lsblk
+clear
+lsblk
+sudo systemctl enable systemd-timesyncd
+sudo systemctl start systemd-timesyncd
+timedatectl status
+ls /etc/cni/net.d/
+sudo ls /etc/cni/net.d/
+ip addr show cni0
+ip addr show flannel.1
+clear
+ip route
+sudo kubeadm reset -f
+sudo rm -rf /etc/kubernetes
+sudo rm -rf /var/lib/kubelet
+sudo rm -rf /var/lib/etcd
+sudo rm -rf /etc/cni/net.d/
+sudo ip link delete cni0
+sudo ip link delete flannel.1
+sudo systemctl restart containerd
+sudo systemctl restart kubelet
+sudo kubeadm join 10.10.0.11:6443 --token 3xtzc3.kd5vusdhrxnzmqos --discovery-token-ca-cert-hash sha256:504f6c5b2a51e8a532a0bf8fa7e389d5f0ed44b1529a4a4f62a5779be10ff201
+clear
+sudo ls /opt/cni/bin/
+ls /etc/cni/net.d/
+cat /etc/cni/net.d/10-flannel.conflist
+sudo ls /etc/cni/net.d/
+cat /etc/cni/net.d/10-flannel.conflist
+sudo cat /etc/cni/net.d/10-flannel.conflist
+sudo cat /etc/containerd/config.toml
+sudo cat /etc/containerd
+sudo cd /etc/containerd
+cd /etc/containerd
+which containerd
+sudo systemctl status containerd
+sudo mkdir -p /etc/containerd
+sudo containerd config default | sudo tee /etc/containerd/config.toml
+sudo systemctl restart containerd
+sudo cat /etc/containerd
+sudo systemctl restart containerd
+sudo systemctl restart kubelet
+clear
+sudo systemctl status containerd
+clear
+sudo systemctl restart containerd
+sudo systemctl restart kubelet
+sudo journalctl -u kubelet | tail -n 50
+sudo systemctl status containerd
+containerd --version
+ls /opt/cni/bin/
+clear
+sudo systemctl status containerd
+containerd --version
+sudo ctr plugins list | grep cri
+sudo ls /opt/cni/bin/
+sudo rm -rf /var/lib/rook
+sudo rm -rf /var/lib/ceph
+sudo rm -rf /etc/ceph
+lsblk
+sudo blkid /dev/vdb
+mount | grep vdb
+sudo dd if=/dev/zero of=/dev/vdb bs=1M count=100
+sudo wipefs -a /dev/vdb
+sudo blkid /dev/vdb
+sudo dd if=/dev/zero of=/dev/vdb bs=1M count=100
+sudo wipefs -a /dev/vdb
+sudo rm -rf /var/lib/rook
+sudo rm -rf /var/lib/ceph
+sudo rm -rf /etc/ceph
+sudo dd if=/dev/zero of=/dev/vdb bs=1M count=100
+sudo wipefs -a /dev/vdb
+kubectl -n rook-ceph delete cephcluster --all
+kubectl -n rook-ceph delete pvc --all
+kubectl -n rook-ceph delete pv --all
+kubectl -n rook-ceph delete pod --all
+kubectl -n rook-ceph delete deployment --all
+kubectl -n rook-ceph delete job --all
+kubectl -n rook-ceph delete configmap --all
+kubectl -n rook-ceph delete secret --all
+lsblk
