@@ -1,0 +1,1240 @@
+whoami
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y docker.io
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt update && sudo apt -y upgrade
+curl -fsSL test.docker.com -o get-docker.sh && sh get-docker.sh
+sudo apt install curl
+sudo apt nano
+sudo apt-get nano
+homebrew
+ls
+python '/home/kaan/Downloads/proton-vpn-gtk-app-4.9.6/setup.py' 
+python3 '/home/kaan/Downloads/proton-vpn-gtk-app-4.9.6/setup.py' 
+sudo apt-get update~
+sudo apt-get update
+sudo systemctl start sshd
+sudo apt install openssh-server
+nc -l -p 5000
+echo "Hello, World!" | nc 10.10.0.3 5000
+echo "Hello, World!" | nc 10.10.0.4 5000
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo apt-get update
+zsh
+sudo apt install zsh
+brew install zsh
+cd ..
+sudo apt install zsh
+brew install zsh
+zsh
+curl -fsSL test.docker.com -o get-docker.sh && sh get-docker.sh
+docker --version
+docker run hello-world
+sudo usermod -aG docker $USER
+nono /etc/netplan/01-netcfg.yaml
+vim /etc/netplan/01-netcfg.yaml
+cd /etc/netplan/01-netcfg.yaml
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ping -c 3 10.10.0.1
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip addr show
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ip addr show enp0s1
+ip route show
+cat <<EOF | sudo tee -a /etc/hosts
+# Kubernetes Servers
+10.10.0.11 k8smaster
+10.10.0.12 master2
+10.10.0.101 node1
+10.10.0.102 node2
+EOF
+
+ping -c 3 10.10.0.12
+ip addr show enp0s1
+clear
+ip addr show enp0s1
+ip route show
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+ip route show
+ping -c 10.10.0.12
+ping -c 3 10.10.0.12
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+ping -c 3 10.10.0.12
+sudo ufw disable
+ping -c 3 10.10.0.12
+sudo ufw enable
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ping -c 3 10.10.0.12
+sudo systemctl restart systemd-networkd
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+sudo netplan apply
+sudo systemctl restart systemd-networkd
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+ip addr show enp0s1
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+ip addr show enp0s1
+sudo netplan apply
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ip addr show enp0s1
+ping -c 3 10.10.0.12
+sudo ip addr del 10.10.0.3/24 dev enp0s1
+ip addr show enp0s1
+ping -c 3 10.10.0.12
+ping -c 3 10.10.0.11
+ping -c 3 10.10.0.10
+arp -a
+ip addr show enp0s1
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+ip addr show enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+ip addr show enp0s1
+sudo netplan apply
+ip addr show enp0s1
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+sudo nmcli con mod "Wired connection 1" ipv4.method manual
+sudo nmcli con up "Wired connection 1"
+sudo nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo systemctl restart systemd-networkd
+ip addr show enp0s1
+ip addr show
+ping -c 3 10.10.0.10
+ping -c 3 10.10.0.11
+ping -c 3 10.10.0.12
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+sudo nmcli con mod "Wired connection 1" ipv4.method manual
+sudo nmcli con up "Wired connection 1"
+sudo netplan apply
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo systemctl restart systemd-networkd
+ip addr show enp0s1
+ps aux | grep dhclient
+sudo killall dhclient
+ps aux | grep dhclient
+sudo systemctl stop dhclient
+sudo systemctl disable dhclient
+ps aux | grep dhclient
+sudo killall dhclient
+sudo netplan apply
+nmcli con show
+sudo nmcli con mod "netplan-enp0s1" ipv4.method manual ipv4.addresses 10.10.0.11/24 ipv4.gateway 10.10.0.1 ipv4.dns "8.8.8.8,8.8.4.4"
+sudo nmcli con up "netplan-enp0s1"
+nmcli con show "netplan-enp0s1"
+sudo ip addr del 10.10.0.10/24 dev enp0s1
+sudo systemctl restart systemd-networkd
+ip addr show enp0s1
+ping -c 3 10.10.0.10
+ping -c 3 10.10.0.11
+ping -c 3 10.10.0.12
+hostname
+sudo hostnamectl set-hostname k8smaster
+hostname
+sudo nano /etc/hosts
+sudo swapoff -a
+sudo sed -i '/ swap / s/^/#/' /etc/fstab
+sudo apt install -y apt-transport-https curl
+apt update
+sudo apt update
+pwd
+aarch
+arm
+whereami
+whoami
+-s 
+s -
+superuser
+sudo
+-rm -rf 
+sudo apt-get update
+sudo apt-get upgrade
+curl -fsSL test.docker.com -o get-docker.sh && sh get-docker.sh
+sudo usermod -aG docker $USER
+sudo apt-get docker
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+sudo rm -rf /var/lib/docker
+sudo rm /etc/apt/sources.list.d/docker.list
+sudo rm /etc/apt/keyrings/docker.asc
+sudo rm -rf /var/lib/containerd
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
+docker ps
+sudo docker ps
+docker --version
+sudo nano /etc/apt/sources.list
+sudo nano /etc/apt/sources.list.d/ubuntu.sources
+go get github.com/kubernetes-incubator/cri-tools/cmd/crictl
+sudo snap install go
+sudo snap install go --classic
+go get github.com/kubernetes-incubator/cri-tools/cmd/crictl
+go install github.com/kubernetes-incubator/cri-tools/cmd/crictl
+go install github.com/kubernetes-incubator/cri-tools/cmd/crictl@latest
+go install github.com/cri-tools/cmd/crictl@latest
+sudo journalctl -u snap.kubelet.daemon.service -f
+clear
+curl http://127.0.0.1:10248/healthz
+sudo cat /etc/kubernetes/manifests/kube-controller-manager.yaml
+sudo cat /etc/kubernetes/manifests/kube-scheduler.yaml
+sudo cat /etc/kubernetes/manifests/etcd.yaml
+sudo cat /etc/containerd/config.toml
+sudo nano /etc/containerd/config.toml
+sudo systemctl restart containerd
+sudo lsof -i :6443
+sudo lsof -i :10257
+sudo lsof -i :10259
+sudo systemctl restart snap.kubelet.daemon.service
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+curl -k https://10.10.0.11:6443/livez
+curl -k https://127.0.0.1:10257/healthz
+ip addr show
+clear
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y apt-transport-https ca-certificates curl
+apt modernize-sources
+sudo apt modernize-sources
+sudo swapoff -a
+sudo sed -i '/ swap / s/^/#/' /etc/fstab
+sudo nano /etc/hosts
+sudo apt install -y docker.io
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo nano /etc/docker/daemon.json
+sudo systemctl restart docker
+docker status
+docker ps
+sudo docker ps
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+sudo apt update
+sudo apt install -y kubelet kubeadm kubectl
+sudo apt-mark hold kubelet kubeadm kubectl
+snap install kubeadm
+sudo apt update
+sudo apt install -y snapd
+sudo snap install kubeadm --classic
+sudo snap install kubectl --classic
+sudo snap install kubelet --classic
+kubeadm version
+kubectl version --client
+kubelet --version
+sudo apt update
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+systemctl enable kubelet.service
+sudo systemctl enable snap.kubelet.daemon.service
+sudo systemctl status snap.kubelet.daemon
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+systemctl enable kubelet.service
+systemctl enable snap.kubelet.service
+sudo systemctl enable snap.kubelet.daemon.service
+sudo systemctl enable snap.kubelet.daemon
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo kubeadm reset
+sudo rm -rf /etc/kubernetes/
+sudo rm -rf /var/lib/etcd
+sudo lsof -i :10250
+sudo systemctl stop kubelet
+sudo systemctl stop snap.deamon.kubelet
+sudo systemctl stop snap.kubelet.service
+sudo systemctl stop snap.kubelet.daemon.service
+sudo lsof -i :10250
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+VERSION="v1.33.0"  # Replace with the version matching your Kubernetes version
+curl -LO https://github.com/kubernetes-sigs/cri-tools/releases/download/$VERSION/crictl-$VERSION-linux-arm64.tar.gz
+sudo tar -C /usr/local/bin -xzf crictl-$VERSION-linux-arm64.tar.gz
+crictl --version
+sudo nano /etc/crictl.yaml
+sudo crictl ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock logs <CONTAINERID>
+sudo journalctl -u snap.kubelet.daemon.service -f
+curl -k https://10.10.0.11:6443/livez
+curl -k https://127.0.0.1:10257/healthz
+curl -k https://127.0.0.1:10259/livez
+sudo systemctl restart snap.kubelet.daemon.service
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo kubeadm reset
+sudo rm -rf /etc/kubernetes/
+sudo rm -rf /var/lib/etcd
+sudo lsof -i :10250
+sudo kill -9 9193
+sudo lsof -i :10250
+sudo systemctl restart snap.kubelet.daemon.service
+sudo systemctl enable snap.kubelet.daemon.service
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --pod-network-cidr=10.244.0.0/16 --ignore-preflight-errors=Port-10250,FileAvailable--etc-kubernetes-manifests-kube-apiserver.yaml,FileAvailable--etc-kubernetes-manifests-kube-controller-manager.yaml,FileAvailable--etc-kubernetes-manifests-kube-scheduler.yaml,FileAvailable--etc-kubernetes-manifests-etcd.yaml
+crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock logs
+curl -k https://10.10.0.11:6443/livez
+curl -k https://127.0.0.1:10257/healthz
+curl -k https://127.0.0.1:10259/livez
+sudo systemctl status containerd
+sudo systemctl enable containerd
+sudo systemctl status snap.kubelet.daemon.service
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+ls -l /etc/kubernetes/manifests/
+sudo ls -l /etc/kubernetes/manifests/
+sudo netstat -tuln | grep -E "6443|10257|10259"
+sudo netstat -tuln 
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube
+sudo systemctl daemon-reload
+sudo systemctl restart snap.kubelet.daemon.service
+sudo apt install net-tools
+sudo journalctl -u snap.kubelet.daemon.service -f
+sudo cat /etc/kubernetes/manifests/kube-apiserver.yaml
+sudo cat /etc/kubernetes/manifests/kube-controller-manager.yaml
+sudo ls -l /etc/kubernetes/manifests/
+sudo cat /etc/kubernetes/manifests/kube-scheduler.yaml
+sudo cat /etc/kubernetes/manifests/etcd.yaml
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock ps -a | grep kube | grep -v pause
+sudo systemctl status containerd
+ls -l /var/run/containerd/containerd.sock
+sudo cat /var/lib/kubelet/config.yaml
+sudo nano /var/lib/kubelet/config.yaml
+sudo systemctl restart snap.kubelet.daemon.service
+sudo journalctl -u snap.kubelet.daemon.service -f
+sudo netstat -tuln | grep -E "6443|10257|10259"
+sudo ufw allow 6443
+sudo ufw allow 10257
+sudo ufw allow 10259
+sudo netstat -tuln | grep -E "6443|10257|10259"
+sudo kubeadm reset
+sudo systemctl stop snap.kubelet.daemon.service
+sudo rm -rf /etc/cni/net.d
+sudo iptables -F
+sudo iptables -t nat -F
+sudo iptables -t mangle -F
+sudo iptables -X
+ip link show
+sudo reboot
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+sudo reboot
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+clear
+sudo apt-get update
+# apt-transport-https may be a dummy package; if so, you can skip that package
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
+sudo apt-get update
+clear
+sudo apt update
+sudo apt-get update
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
+curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.33/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+sudo chmod 644 /etc/apt/keyrings/kubernetes-apt-keyring.gpg # allow unprivileged APT programs to read this keyring
+clear
+kubectl cluster-info
+kubectl cluster-info dump
+sudo rm /usr/local/bin/kubectl/
+sudo rm /usr/local/bin/kubectl
+kubectl cluster-info dump
+kubectl cluster-info
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+kubectl version --client
+curl -Ls "https://sbom.k8s.io/$(curl -Ls https://dl.k8s.io/release/stable.txt)/release" | grep "SPDXID: SPDXRef-Package-registry.k8s.io" |  grep -v sha256 | cut -d- -f3- | sed 's/-/\//' | sed 's/-v1/:v1/'
+sudo mv kubeadm /usr/local/bin/
+sudo mv kubectl /usr/local/bin/
+sudo mv kubelet /usr/local/bin/
+sudo mv '/home/kaan/Downloads/kubelet' /usr/local/bin/
+sudo mv '/home/kaan/Downloads/kubeadm' usr/local/bin/
+sudo mv '/home/kaan/Downloads/kubeadm' /usr/local/bin/
+sudo add-apt-repository universe
+clear
+sudo vi /etc/apt/sources.list
+ls ~/.kube/config
+kubectl get nodes
+echo $KUBECONFIG
+nano ~/.kube/config
+ls /etc/kubernetes/admin.conf
+sudo ls /etc/kubernetes/admin.conf
+export KUBECONFIG=/etc/kubernetes/admin.conf
+kubectl get nodes
+sudo kubectl get nodes
+mkdir -p ~/.kube
+sudo cp /etc/kubernetes/admin.conf ~/.kube/config
+sudo chown $(id -u):$(id -g) ~/.kube/config
+kubectl get nodes
+sudo kubectl get nodes
+kubectl config view --raw
+sudo kubectl config view --raw
+mkdir -p ~/.kube
+sudo cp /etc/kubernetes/admin.conf ~/.kube/config
+sudo chown $(id -u):$(id -g) ~/.kube/config
+kubectl get nodes
+sudo kubectl get nodes
+nano ~/.kube/config
+sudo nano /etc/kubernetes/manifests/kube-apiserver.yaml
+sudo kubectl get nodes
+nano ~/.kube/config
+kubectl port
+nano ~/.kube/config
+mkdir -p $HOME/.kube
+cat ~/.kube/config
+sudo k8s bootstrap
+sudo microk8s kubectl get nodes
+kubectl port
+sudo kubectl get nodes
+cat ~/.kube/config
+curl -k https://127.0.0.1:6443/version
+kubectl version --short
+kubectl version 
+echo $KUBECONFIG
+kubectl get nodes
+sudo KUBECONFIG=$HOME/.kube/config kubectl get nodes
+sudo kubectl get nodes
+sudo KUBECONFIG=$HOME/.kube/config kubectl get nodes
+sudo kubectl get nodes
+
+kubectl man
+kubectl --mman
+kubectl --man
+kubectl --help
+sudo cat /root/.kube/config
+sudo mkdir -p /root/.kube
+sudo cp $HOME/.kube/config /root/.kube/config
+sudo kubectl get nodes
+clear
+sudo k8s status --wait-ready
+sudo k8s kubectl get pods -n kube-system
+get hosts
+host
+sudo snap install kubectl --classic
+sudo apt update
+sudo apt install -y kubeadm kubelet kubectl
+sudo snap install kubelet
+sudo snap install kubelet --classic
+sudo snap install kubeadm --classic
+sudo snap run kubeadm init --apiserver-advertise-address=10.10.0.11 --apiserver-cert-extra-sans=k8smaster --pod-network-cidr=10.244.0.0/16
+kubectl get nodes
+sudo lsof -i :6443
+sudo lsof -i :10259
+sudo lsof -i :10257
+sudo lsof -i :10250
+hosts
+get hosts
+cat e
+cat /etc/hosts
+mkdir -p $HOME/.kube
+sudo cp /var/snap/kubeadm/current/etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+sudo cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo find / -name admin.conf 2>/dev/null
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+kubectl get nodes
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+sudo nano /etc/netplan/01-netcfg.yaml
+ping -c 3 10.10.0.12
+kubeadm token create --print-join-command
+kubectl get nodes
+kubeadm token list
+kubeadm 
+kubectl get nodes
+kubectl get pods -n kube-system
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+kubectl get nodes
+sudo systemctl status kubelet
+kubectl describe node k8smaster
+sudo systemctl status containerd
+kubectl get nodes
+kubectl get node
+kubectl get pods
+kubectl get pods -n kube-system
+kubectl get nodes
+sudo journalctl -u kubelet --no-pager | tail -50
+sudo kubeadm init --apiserver-advertise-address=10.10.0.11 --apiserver-cert-extra-sans=k8smaster --pod-network-cidr=10.244.0.0/16
+mkdir -p $HOME/.kube
+sudo cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+sudo journalctl -u kubelet -f
+hostname
+cat /etc/hosts
+sudo crictl --runtime-endpoint unix:///var/run/containerd/containerd.sock logs d975884ff51d2
+kubectl get nodes
+cat /etc/hosts
+nano /etc/hosts
+sudo nano /etc/hosts
+kubectl get nodes
+hostname
+sudo systemctl status ssh
+sudo systemctl enable ssh
+sudo systemctl start ssh
+ssh
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl start ssh
+sudo systemctl status ssh
+sudo ufw allow ssh
+kubectl create role view --verb=get,list,watch --resource=pods -n dev
+kubectl apply -f /home/kaan/Desktop/RBAC/nsreader-binding.yaml
+kubectl get nodes
+clear
+kubectl logs nginx-ds-82rz8 -c nginx-1
+kubectl logs nginx-ds-82rz8 -c nginx-2
+kubectl get nodes
+kubeadm token create --print-join-command
+kubectl get nodes
+mkdir ~/k8s-certs
+cd ~/k8s-certs
+# Admin user (for k8smaster)
+openssl genrsa -out admin.key 2048
+openssl req -new -key admin.key -out admin.csr -subj "/CN=admin/O=admin"
+sudo openssl x509 -req -in admin.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out admin.crt -days 365
+# Readonly user (for master1)
+openssl genrsa -out readonly.key 2048
+openssl req -new -key readonly.key -out readonly.csr -subj "/CN=readonly/O=readonly"
+sudo openssl x509 -req -in readonly.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out readonly.crt -days 365
+# Namespace reader (for node1)
+openssl genrsa -out nsreader.key 2048
+openssl req -new -key nsreader.key -out nsreader.csr -subj "/CN=nsreader/O=nsreader"
+sudo openssl x509 -req -in nsreader.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out nsreader.crt -days 365
+kubectl config set-cluster kubernetes   --certificate-authority=/etc/kubernetes/pki/ca.crt   --server=https://10.10.0.11:6443   --kubeconfig=admin.conf
+kubectl config set-credentials admin   --client-certificate=admin.crt   --client-key=admin.key   --kubeconfig=admin.conf
+kubectl config set-context admin@kubernetes   --cluster=kubernetes   --user=admin   --kubeconfig=admin.conf
+kubectl config use-context admin@kubernetes --kubeconfig=admin.conf
+mkdir -p $HOME/.kube
+cp <user>.conf $HOME/.kube/config
+cp admin.conf $HOME/.kube/config
+kubectl get nodes
+cp ~/k8s-certs/admin.crt ~/k8s-certs/admin.key $HOME/.kube/
+cp ~/k8s-certs/admin.conf $HOME/.kube/config
+kubectl get nodes
+kubectl apply -f admin-binding.yaml
+kubectl apply -f '/home/kaan/Desktop/RBAC/admin-binding.yaml' 
+cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo kubectl apply -f /home/kaan/Desktop/RBAC/admin-binding.yaml
+cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudp cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+kubectl get nodes
+kubectl apply -f '/home/kaan/Desktop/RBAC/nsreader-binding.yaml'
+kubectl create namespace dev
+kubectl apply -f '/home/kaan/Desktop/RBAC/nsreader-binding.yaml'
+kubectl apply -f '/home/kaan/Desktop/RBAC/readonly-binding.yaml'
+kubectl get nodes
+kubectl get clusterroles
+kubectl logs nginx-ds-82rz8 -c nginx-1
+kubectl logs nginx-ds-82rz8 -c nginx-2
+kubectl describe pod nginx-ds-82rz8
+kubectl get nodes
+kubectl create namespace rook-ceph
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/crds.yaml
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/common.yaml
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/operator.yaml -n rook-ceph
+kubectl get nodes
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/cluster.yaml -n rook-ceph
+kubectl -n rook-ceph get pods
+kubectl get pods
+kubectl get nodes
+kubectl -n rook-ceph get pods
+ls /opt/cni/bin
+sudo ls /opt/cni/bin
+kubectl -n rook-ceph get pods
+kubectl -n rook-ceph delete -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/cluster.yaml
+kubectl -n rook-ceph delete -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/operator.yaml
+kubectl -n rook-ceph get pods
+lsblk -f
+sudo apt update
+sudo apt install lvm2
+kubectl describe pod rook-ceph-mon-c-canary-6f696f749b-txcdz -n rook-ceph
+ssh kaan@10.10.0.101
+curl -k https://10.10.0.101:10250/healthz
+sudo curl -k https://10.10.0.101:10250/healthz
+clear
+kubectl logs rook-ceph-mgr-b-598594dff4-btp9r -n rook-ceph
+modprobe rbd
+sudo modprobe rbd
+kubectl create namespace rook-ceph
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/crds.yaml
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/common.yaml
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/deploy/examples/operator.yaml -n rook-ceph
+kubectl get nodes -n rook-ceph
+kubectl get pods -n rook-ceph
+kubectl get nodes
+kubectl get pods -n rook-ceph
+kubectl get nodes
+ls /opt/cni/bin
+sudo ls /opt/cni/bin
+kubectl get pods -n rook-ceph
+clear
+kubectl get pods -n rook-ceph
+kubectl -n rook-ceph get pod
+kubectl get pods -n rook-ceph
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.13.6/cluster/examples/kubernetes/ceph/cluster.yaml -n rook-ceph
+clear
+kubectl get pods -n rook-ceph
+git clone --single-branch --branch v1.17.7 https://github.com/rook/rook.git
+cd rook/deploy/examples
+kubectl create -f crds.yaml -f common.yaml -f operator.yaml
+kubectl -n rook-ceph get pod
+kubectl create -f cluster.yaml
+kubectl -n rook-ceph delete deployment rook-ceph-operator
+kubectl apply -f crds.yaml -f common.yaml -f operator.yaml
+kubectl create -f cluster.yaml
+kubectl -n rook-ceph get pod
+kubectl get nodes
+kubectl -n rook-ceph get pod
+kubectl get nodes
+kubectl -n rook-ceph get pod
+kubectl get pods -n rook-ceph
+kubectl -n rook-ceph get pod
+kubectl get pods -n rook-ceph
+ls
+nano cluster.yaml
+kubectl apply -f cluster.yaml
+kubectl get pods -n rook-ceph
+nano cluster.yaml
+kubectl get pods -n rook-ceph
+kubectl delete pod --all -n rook-ceph
+kubectl get pods -n rook-ceph
+nano cluster.yaml
+kubectl get pods -n rook-ceph
+kubectl logs -n rook-ceph rook-ceph-mon-b-canary-64bb5f9547-gtwsc
+kubectl get pods -n rook-ceph
+nano cluster.yaml
+kubectl get pods -n rook-ceph
+kubectl aplly -f cluster.yaml
+kubectl apply -f cluster.yaml
+kubectl get pods -n rook-ceph
+kubectl delete pod --all -n rook-ceph
+kubectl get pods -n rook-ceph
+nano cluster.yaml
+kubectl get pods -n rook-ceph
+kubectl describe pod rook-ceph-operator-ffc49d798-jslqv -n rook-ceph
+sudo ls /etc/cni/net.d/
+sudo systemctl restart kubelet
+kubectl describe pod rook-ceph-operator-ffc49d798-jslqv -n rook-ceph
+sudo ls /etc/cni/net.d/
+clear
+sudo ls /etc/cni/net.d/
+kubectl describe pod rook-ceph-operator-ffc49d798-jslqv -n rook-ceph
+kubectl -n rook-ceph get pod -l app=rook-ceph-operator
+kubectl -n rook-ceph describe pod <rook-ceph-operator-pod-name>
+kubectl -n rook-ceph describe pod rook-ceph-operator-ffc49d798-jslqv
+kubectl -n rook-ceph describe pod rook-ceph-operator-84c99b765c-jpg9z
+clear
+kubectl describe pod csi-cephfsplugin-fgs4v -n rook-ceph
+clear
+kubectl describe pod csi-rbdplugin-pm7dd -n rook-ceph
+kubectl describe pod csi-rbdplugin-zqhl2 -n rook-ceph
+kubectl describe pod rook-ceph-mon-c-canary-6f696f749b-c84zh -n rook-ceph
+clear
+kubectl logs csi-rbdplugin-zqhl2 -n rook-ceph -c csi-rbdplugin
+clear
+kubectl logs csi-rbdplugin-zqhl2 -n rook-ceph -c csi-rbdplugin
+kubectl logs csi-rbdplugin-zqhl2 -n rook-ceph -c log-collector
+kubectl logs csi-rbdplugin-zqhl2 -n rook-ceph -c csi-rbdplugin
+kubectl describe pod csi-rbdplugin-zqhl2 -n rook-ceph
+kubectl get pod csi-rbdplugin-zqhl2 -n rook-ceph
+kubectl describe pod rook-ceph-mon-c-canary-6f696f749b-q4sfq -n rook-ceph
+kubectl describe pod rook-ceph-mon-c-canary-6f696f749b-pbg7m -n rook-ceph
+kubectl taint nodes master1 node-role.kubernetes.io/control-plane:NoSchedule
+kubectl describe node master1 | grep Taint
+kubectl describe pod rook-ceph-mon-c-canary-6f696f749b-hl954 -n rook-ceph
+kubectl describe node k8smaster | grep Tain
+kubectl describe pod rook-ceph-mon-b-canary-64bb5f9547-gtwsc -n rook-ceph
+kubectl logs rook-ceph-mon-a-d95c8c4fc-fkbzl -n rook-ceph
+clear
+kubectl logs rook-ceph-mon-a-d95c8c4fc-pg56f -n rook-ceph
+kubectl get pod rook-ceph-mon-a-d95c8c4fc-pg56f -n rook-ceph -o wide
+kubectl describe node rook-ceph-mon-a-d95c8c4fc-pg56f
+kubectl describe node rook-ceph-mgr-b-598594dff4-btp9r
+clear
+kubectl logs rook-ceph-mon-a-d95c8c4fc-pg56f -n rook-ceph
+kubectl logs rook-ceph-mon-b-866b78cc74-72fc6 -n rook-ceph
+sudo echo "vm.swappiness=0" | sudo tee --append /etc/sysctl.conf
+sudo swapoff -a
+free -m
+sudo sed -i '/swap/s/^\(.*\)$/#\1/g' /etc/fstab
+free -m
+kubectl get nodes
+kubectl get nodes
+kubectl get pods -n rook-ceph
+kubectl delete pod --all -n rook-ceph
+kubectl describe pod rook-ceph-mon-a-d95c8c4fc-fhxlt -n rook-ceph
+kubectl logs rook-ceph-mon-a-d95c8c4fc-fhxlt -n rook-ceph --all-containers
+kubectl describe pod rook-ceph-mon-c-74f7758789-dvsgv -n rook-ceph
+kubectl logs rook-ceph-mon-c-74f7758789-dvsgv -n rook-ceph --all-containers
+kubectl describe pod csi-cephfsplugin-929s5 -n rook-ceph
+kubectl logs csi-cephfsplugin-929s5 -n rook-ceph --all-containers
+kubectl get pods -n rook-ceph
+kubectl get pods -n kubernetes-dashboard
+kubectl get svc -n kubernetes-dashboard
+kubectl get pods -n kubernetes-dashboard
+kubectl delete -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+kubectl get pods -n kubernetes-dashboard
+k9s
+kubectl get nodes
+sudo journalctl -u containerd --no-pager | tail -50
+df -h
+df -i
+dmesg | tail -50
+sudo dmesg | tail -50
+sudo ufw disable
+clear
+kubectl describe pod rook-ceph-mgr-a-64759bc677-wsslb -n rook-ceph
+kubectl get pods -n rook-ceph
+kubectl describe pod rook-ceph-mgr-a-64759bc677-h6vk2 -n rook-ceph
+kubectl get secret rook-ceph-mgr-a-keyring -n rook-ceph -o yaml
+kubectl get secret rook-ceph-config -n rook-ceph -o yaml
+kubectl get pods -n rook-ceph | grep mon
+kubectl delete pod rook-ceph-mgr-a-64759bc677-h6vk2 -n rook-ceph
+clear
+kubectl describe pod rook-ceph-mgr-a-64759bc677-h6vk2 -n rook-ceph
+clear
+kubectl describe pod -n kube-flannel kube-flannel-ds-dt8dd
+kubectl describe pod -n kube-flannel kube-flannel-ds-dzlpc
+clear
+kubectl logs -n kube-flannel kube-flannel-ds-dzlpc
+df -h
+df -i
+ls -ld /run/flannel /etc/cni/net.d /opt/cni/bin
+sudo dmesg | grep -i denied
+sudo journalctl -u kubelet --no-pager | tail -100
+clear
+kubectl delete pod -n kube-flannel kube-flannel-ds-dzlpc
+kubectl delete pod -n kube-flannel kube-flannel-ds-dt8dd
+kubectl rollout restart deployment rook-ceph-operator -n rook-ceph
+sudo reboot
+kubectl get nodes
+kubectl get pods -n rook-ceph
+kubectl delete pods -a
+kubectl get pods -n rook-ceph
+cd /path/to/your/ceph-folder
+kubectl get pods -n rook-ceph
+ls ~ | grep ceph
+find ~ -type d -name '*ceph*'
+clear
+kubectl get pods -n rook-ceph
+nano cluster.yaml
+cd rook/cluster/examples/kubernetes/ceph/
+cd rook/cluster/examples/kubernetes
+cd rook/cluster/
+find ~ -name 'cluster.yaml'
+cd /home/kaan/rook/deploy/examples/
+ls
+nano cluster.yaml
+clear
+kubectl get pods -n rook-ceph
+kubectl delete pod --all -n rook-ceph
+kubectl get pods -n rook-ceph
+kubectl get pods -o wide -n rook-ceph
+kubectl get pods -n rook-ceph
+kubectl get pods -o wide -n rook-ceph
+kubectl get pods -n rook-ceph
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+kubectl proxy
+kubectl get pods -n rook-ceph
+kubectl describe pod rook-ceph-mgr-a-64759bc677-5ks4q -n rook-ceph
+kubectl logs rook-ceph-mgr-a-64759bc677-5ks4q -n rook-ceph --all-containers
+clear
+kubectl get pods -n rook-ceph
+kubectl logs rook-ceph-mgr-a-64759bc677-5ks4q -n rook-ceph --all-containers
+kubectl get nodes
+kubectl describe node master1
+clear
+kubectl get nodes
+kubectl get pods -n rook-ceph
+curl -k https://10.10.0.12:10250/healthz
+kubectl get pods -n rook-ceph
+kubectl rollout restart deployment --all -A
+kubectl rollout restart statefulset --all -A
+kubectl rollout restart daemonset --all -A
+kubectl delete pod --all -A
+kubectl get pods -n rook-ceph
+kubectl delete pod --all -A
+kubectl get pods -n rook-ceph
+clear
+kubectl get pods -n rook-ceph
+kubectl get pods -n rook-ceph | grep mon
+kubectl logs rook-ceph-mon-a-d95c8c4fc-s7jsd 
+kubectl logs rook-ceph-mon-a-d95c8c4fc-s7jsd -n rook-ceph
+kubectl describe pod rook-ceph-mon-a-d95c8c4fc-s7jsd -n rook-ceph
+curl -sS https://webinstall.dev/k9s | bash
+source ~/.config/envman/PATH.env
+k9s
+kubectl delete pod --all -A
+kubectl describe pod rook-ceph-mon-a-d95c8c4fc-nj28b -n rook-ceph
+kubectl logs rook-ceph-mon-a-d95c8c4fc-nj28b -n rook-ceph -c mon
+clear
+kubectl get events --sort-by='.lastTimestamp' -A | grep -i error
+kubectl get clusterrolebinding
+kubectl describe job rook-ceph-detect-version -n rook-ceph
+kubectl describe daemonset kube-flannel-ds -n kube-flannel
+kubectl get role,rolebinding,clusterrole,clusterrolebinding -n rook-ceph
+kubectl get serviceaccount flannel -n kube-flannel
+kubectl get clusterrolebinding flannel -o yaml
+kubectl get serviceaccount -n rook-ceph
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/v0.27.2/Documentation/kube-flannel.yml
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.17.7/deploy/examples/common.yaml
+kubectl create secret generic rook-ceph-mgr-token --type kubernetes.io/service-account-token --from-literal=extra= --namespace rook-ceph
+kubectl patch serviceaccount rook-ceph-mgr -n rook-ceph -p '{"secrets": [{"name": "rook-ceph-mgr-token"}]}'
+kubectl rollout restart daemonset kube-flannel-ds -n kube-flannel
+kubectl rollout restart deployment rook-ceph-operator -n rook-ceph
+kubectl get events --sort-by='.lastTimestamp' -A | grep -i error
+cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep service-account
+sudo cat /etc/kubernetes/manifests/kube-apiserver.yaml | grep service-account
+kubectl -n kube-system get pods | grep controller-manager
+kubectl -n kube-system logs kube-controller-maneger-k8smaster
+kubectl -n kube-system logs kube-controller-manager-k8smaster
+kubectl get secrets --all-namespaces | grep service-account
+kubectl create serviceaccount test-sa -n rook-ceph
+kubectl get serviceaccount test-sa -n rook-ceph
+kubectl get secrets -n rook-ceph | grep test-sa
+kubectl get secrets --all-namespaces | grep service-account
+kubectl get pods -n kube-system | grep etcd
+kubectl -n kube-system logs <etcd-pod-name>
+kubectl -n kube-system logs etcd-k8smaster
+clear
+kubectl -n kube-system logs etcd-k8smaster
+kubectl -n kube-system logs kube-apiserver-k8smaster | grep -i secret
+kubectl -n kube-system logs kube-apiserver-k8smaster | grep -i serviceaccount
+kubectl auth can-i create secrets --as=system:serviceaccount:kube-system:default
+kubectl auth can-i create secrets --as=system:serviceaccount:rook-ceph:rook-ceph-mgr
+kubectl get pods -n rook-ceph
+k9s
+cd ..
+ls
+cd kaan/
+ls
+cd Desktop/
+cd RBAC/
+nano service-accoutn-secret-creator.yaml
+nano service-accoutn-secret-creator-binding.yaml
+kubectl apply -f service-accoutn-secret-creator.yaml
+kubectl apply -f service-accoutn-secret-creator-binding.yaml
+kubectl delete pods --all --all-namespaces
+kubectl get pods -A
+kubectl get events --sort-by='.lastTimestamp' -A | grep -i error
+clear
+kubectl get events --sort-by='.lastTimestamp' -A | grep -i error
+sudo systemctl status containerd
+sudo systemctl status cri-o
+sudo systemctl restart containerd
+kubectl get nodes
+kubectl rollout restart deployment rook-ceph-operator -n rook-ceph
+kubectl rollout restart daemonset kube-flannel-ds -n kube-flannel
+kubectl delete pods --all --all-namespaces
+kubectl describe pod rook-ceph-mgr-a-64759bc677-h6vk2 -n rook-ceph
+kubectl describe node master1
+sudo dmesg | tail -50
+kubectl get pods -n kube-flannel
+sudo journalctl -u containerd --no-pager | tail -100
+kubectl describe pod rook-ceph-mgr-a-64759bc677-zhlkd -n rook-ceph
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+ls -l /etc/cni/net.d/10-flannel.conflist
+sudo ls -l /etc/cni/net.d/10-flannel.conflist
+sudo ls /etc/cni/net.d/10-flannel.conflist
+kubectl get pods -n kube-flannel
+ls -l /etc/cni/net.d/
+cat /etc/cni/net.d/10-flannel.conflist
+kubectl logs -n kube-flannel kube-flannel-ds-dzlpc
+kubectl get pods -n kube-flannel
+kubectl logs -n kube-flannel kube-flannel-ds-dzlpc
+clear
+kubectl logs -n kube-flannel kube-flannel-ds-dzlpc
+clear
+kubectl get pods -n kube-flannel
+kubectl logs -n kube-flannel kube-flannel-ds-dzlpc
+kubectl logs -n kube-flannel kube-flannel-ds-dt8dd
+kubectl get nodes
+kubectl get nodes -o json | jq '.items[].spec.taints'
+clear
+kubectl get nodes
+kubectl get nodes -o json | jq '.items[].spec.taints'
+kubectl describe node master1 | grep -i pressure
+kubectl describe node node1 | grep -i pressure
+sudo ls -l /etc/cni/net.d/
+cat /etc/cni/net.d/10-flannel.conflist
+lsmod | grep vxlan
+kubectl delete pod -n rook-ceph -a
+kubectl delete pod -n rook-ceph -A
+clear
+kubectl delete pod -n rook-ceph --all
+kubectl delete deployment,daemonset,statefulset,job -n rook-ceph --all
+kubectl create -f cluster.yaml
+find / -name cluster.yaml
+sudo find / -name cluster.yaml
+cd /home/kaan/rook/deploy/examples/
+kubectl create -f cluster.yaml
+clear
+kubectl create -f deploy/examples/toolbox.yaml
+kubectl create -f toolbox.yaml
+kubectl -n rook-ceph rollout status deploy/rook-ceph-tools
+kubectl -n rook-ceph exec -it deploy/rook-ceph-tools -- bash
+kubectl get nodes
+kubectl get pods -n rook-ceph
+k8s
+k9s
+kubectl get nodes
+cd rook/cluster/examples/kubernetes/
+kubectl get pods -n flannek
+kubectl get pods -n flannel
+k9
+k9s
+kubectl drain master1 --ignore-daemonsets --delete-local-data
+kubectl drain master1 --ignore-daemonsets
+sudo nano etc/hosts
+sudo nano /etc/hosts/
+sudo nano /etc/hosts
+kubectl get nodes
+kubeadm token create --print-join-command
+kubectl drain node1 --ignore-daemonsets 
+kubectl drain node1 --ignore-daemonsets --delete-emptydir-data
+kubectl get nodes
+sudo reboot
+kubectl delete node node1
+cd rook/deploy/examples
+ls
+sudo nano operator.yaml 
+nano cluster.yaml
+kubectl delete node master1
+k9s
+kubeadm token create --print-join-command
+kubectl get node
+sudo kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml --validate=false
+clear
+k9s
+kubectl -n rook-ceph exec deploy/rook-ceph-tools -- ceph status
+kubectl get pods -n kube-flannel
+kubectl get daemonset -n kube-flannel
+kubectl get deployment -n kube-flannel
+clear
+kubectl -n kube-flannel logs -l app=flannel
+kubectl -n kube-system logs -l k8s-app=kube-proxy
+clear
+ls /opt/cni/bin/
+sudo ls /opt/cni/bin/
+sudo systemctl restart containerd
+sudo snap install helm --classic
+helm repo add stable https://charts.helm.sh/stable
+helm repo update
+helm search repo rook
+helm list
+sudo systemctl restart containerd
+sudo systemctl restart kubelet
+systemctl daemon-reload
+sudo systemctl restart containerd
+sudo systemctl restart kubelet
+sudo systemctl restart kube-apiserver
+sudo systemctl restart kube-controller-manager
+sudo systemctl restart kube-scheduler
+sudo systemctl restart etcd
+kubectl delete pod --all --all-namespaces
+kubectl get nodes -o wide
+kubectl -n kube-system logs -l app=flannel
+kubectl get pods -o wide --all-namespaces
+clear
+kubectl -n kube-flannel logs kube-flannel-ds-hxxn4
+kubectl -n kube-flannel logs kube-flannel-ds-tvgs9
+kubectl -n kube-system logs kube-proxy-pnzp4
+kubectl -n kube-system logs kube-proxy-r6b25
+clear
+kubectl get nodes -o jsonpath='{.items[*].spec.podCIDR}'
+sudo kubeadm reset -f
+sudo ip link delete cni0
+sudo ip link delete flannel.1
+sudo rm -rf /etc/cni/net.d/
+ip addr
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml --validate=false
+mkdir -p $HOME/.kube
+sudo cp /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+kubectl get nodes
+get logs node k8smaster
+kubectl logs node k8smaster
+kubectl get nodes
+kubectl get pods -n kube-flannel
+kubectl get nodes
+kubectl get pods -n kube-system
+kubectl -n kube-flannel logs -l app=flannel
+clear
+k9s
+git clone --single-branch --branch master https://github.com/rook/rook.git
+cd rook/deploy/examples
+kubectl create -f crds.yaml -f common.yaml -f operator.yaml
+kubectl create -f cluster.yaml
+sudo nano cluster.yaml
+kubectl taint nodes k8smaster node-role.kubernetes.io/control-plane:NoSchedule-
+kubectl taint nodes k8smaster node-role.kubernetes.io/control-plane:NoSchedule
+nano /etc/containerd/config.toml
+sudo nano /etc/containerd/config.toml
+kubectl taint nodes k8smaster node-role.kubernetes.io/control-plane:NoSchedule-
+sudo nano /etc/containerd/config.toml
+clear
+kubectl get nodes
+sudo nano cluster.yaml
+kubectl apply -f cluster.yaml
+kubectl -n rook-ceph get pods | grep osd
+clear
+kubectl -n rook-ceph logs deploy/rook-ceph-operator
+kubectl -n rook-ceph logs deploy/rook-ceph-mgr-a
+kubectl -n rook-ceph get pods | grep mon
+clear
+kubectl -n rook-ceph get pods | grep mon
+kubectl get nodes -o wide
+ntp
+systemd-timesyncd
+sudo apt update
+sudo apt install systemd-timesyncd -y
+sudo systemctl enable systemd-timesyncd
+sudo systemctl start systemd-timesyncd
+sudo systemctl enable systemd-timesyncd
+sudo systemctl start systemd-timesyncd
+timedatectl status
+kubectl -n rook-ceph logs deploy/rook-ceph-operator
+sudo rm -rf /var/lib/rook
+sudo rm -rf /var/lib/ceph
+sudo rm -rf /etc/ceph
+kubectl -n rook-ceph delete cephcluster rook-ceph
+kubectl -n rook-ceph delete pvc --all
+kubectl -n rook-ceph delete pv --all
+kubectl -n rook-ceph delete pod --all
+kubectl -n rook-ceph delete deployment --all
+kubectl -n rook-ceph delete job --all
+kubectl -n rook-ceph delete configmap --all
+kubectl -n rook-ceph delete secret --all
+sudo dd if=/dev/zero of=/dev/vdb bs=1M count=100
+sudo wipefs -a /dev/vdb
+sudo dd if=/dev/zero of=/dev/vdb bs=1M count=100
+sudo wipefs -a /dev/vdb
+kubectl apply -f cluster.yaml
+sudo rm -rf /var/lib/rook
+sudo rm -rf /var/lib/ceph
+sudo rm -rf /etc/ceph
+sudo dd if=/dev/zero of=/dev/vdb bs=1M count=100
+sudo wipefs -a /dev/vdb
+kubectl -n rook-ceph delete cephcluster --all
+kubectl -n rook-ceph delete pvc --all
+kubectl -n rook-ceph delete pv --all
+kubectl -n rook-ceph delete pod --all
+kubectl -n rook-ceph delete deployment --all
+kubectl -n rook-ceph delete job --all
+kubectl -n rook-ceph delete configmap --all
+kubectl -n rook-ceph delete secret --all
+kubectl apply -f crds.yaml
+kubectl apply -f common.yaml
+kubectl apply -f operator.yaml
+kubectl apply -f cluster.yaml
+git clone --single-branch --branch v1.17.7 https://github.com/rook/rook.git
+cd rook/deploy/examples
+kubectl create -f crds.yaml -f common.yaml -f operator.yaml
+kubectl create -f cluster.yaml
+kubectl apply -f crds.yaml
+kubectl apply -f common.yaml
+kubectl apply -f operator.yaml
+kubectl apply -f cluster.yaml
+kubectl -n rook-ceph delete cephcluster rook-ceph
+k9s
+cd ..
+cd Desktop/
+cd PVC/
+touch pvc.yaml
+touch ngnix-pvc.yaml
+kubectl get pvc
+kubectl get storageclass
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/v1.17.7/deploy/examples/storageclass.yaml
+kubectl apply -f https://github.com/rook/rook/blob/release-1.17/deploy/examples/csi/rbd/storageclass.yaml
+kubectl apply -f https://raw.githubusercontent.com/rook/rook/release-1.17/deploy/examples/csi/rbd/storageclass.yaml
+kubectl get storageclass
+kubectl get pvc
+kubectl get pods
+kubectl get pvc
+kubectl get pods -n rook-ceph
+clear
+kubectl get pods -n rook-ceph
+clear
+kubectl port-forward pod/nginx-ceph 8080:80
+kubectl get pods -o wide
+kubectl logs nginx-ceph
+kubectl exec -it nginx-ceph -- bash
+kubectl port-forward pod/nginx-ceph 8080:80
+kubectl get svc
+sudo ufw allow 30083
+sudo ufw allow 30080
+kubectl get nodes -o wide
+kubectl delete pod nginx-ceph
+kubectl delete pvc rook-ceph-block-pvc
+touch elasticsearch.yaml
+touch logstash.yaml
+touch logstash-config.yaml
+touch kibana.yaml
+touch grafana.yaml
+kubectl apply -f elasticsearch.yaml
+kubectl apply -f logstash.yaml
+kubectl apply -f logstash-config.yaml
+kubectl apply -f kibana.yaml
+kubectl apply -f grafana.yaml
+kubectl describe pod elasticsearch-0
+clear
+kubectl describe pod elasticsearch-0
+kubectl get pvc
+kubectl get storageclass
+kubectl apply -f elasticsearch.yaml
+kubectl delete statefulset elasticsearch --cascade=orphan
+kubectl apply -f elasticsearch.yaml
+kubectl get pvc
+kubectl describe pvc data-elasticsearch-0
+touch storageclass.yaml
+kubectl apply -f storageclass.yaml
+kubectl delete statefulset elasticsearch --cascade=orphan
+kubectl apply -f elasticsearch.yaml
+kubectl get pvc
+kubectl describe pvc data-elasticsearch-0
+kubectl get storageclass
+kubectl -n rook-ceph get cephcluster
+kubectl -n rook-ceph get pods
+kubectl delete statefulset elasticsearch --cascade=orphan
+kubectl apply -f elasticsearch.yaml
+kubectl get pvc
+kubectl describe pvc data-elasticsearch-0
+kubectl -n rook-ceph logs -l app=csi-rbdplugin-provisioner
+clear
+kubectl delete pvc data-elasticsearch-0
+kubectl apply -f elasticsearch.yaml
+kubectl get pvc
+kubectl describe pvc data-elasticsearch-0
+kubectk get pods -n default
+kubectl get pods -n default
+kubectl logs elasticsearch-0
+kubectl apply -f elasticsearch.yaml
+kubectl get pods -n default
+kubectl get pods wide -n default
+kubectl get pods --wide -n default
+kubectl get pods -wide -n default
+kubectl get pods -n default
+kubectl apply -f elasticsearch.yaml
+touch elasticsearch-service.yaml
+touch kibana-service.yaml
+kubectl apply -f elasticsearch-service.yaml
+kubectl apply -f kibana-service.yaml
+kubectl get service elasticsearch
+kubectl get service kibana
+kubectl get nodes -o wide
+curl -X POST "http://10.10.0.101:30894/test-index/_doc" -H 'Content-Type: application/json' -d '{"message": "Hello from Kibana!"}'
+clear
+kubectl get pods -n default
+touch grafane-service.yaml
+kubectl apply -f grafana-service.yaml
+kubectl get service grafana
+kubectl create clusterrolebinding control-plane-admin-binding   --clusterrole=cluster-admin   --user=$(kubectl config view --minify -o jsonpath='{.contexts[0].context.user}')
+cd ..
+cd Desktop/
+cd PVC/
+touch service.yaml
+kubectl apply -f service.yaml
+kubectl apply -f crds.yaml
+kubectl apply -f common.yaml
+kubectl apply -f operator.yaml
+kubectl apply -f cluster.yaml
+cd cd rook/deploy/examples
+cd rook/deploy/examples
+kubectl apply -f crds.yaml
+kubectl apply -f common.yaml
+kubectl apply -f operator.yaml
+kubectl apply -f cluster.yaml
+kubectl get pods -n rook-ceph
+clear
+k9s
+export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=prometheus,app.kubernetes.io/instance=prometheus" -o jsonpath="{.items[0].metadata.name}")
+kubectl --namespace default port-forward $POD_NAME 9090
+kubectl get nodes -o wide
+clear
+kubectl get pods -l app=postgres
+kubectl exec -it postgres-5cb45bf44b-7dfjp -- psql -U keycloakuser -d keycloakdb
+cat /etc/ho1ts
+cat /etc/hosts
+kubectl get nodes
+k9s
+net
+ip addr
+kubectl get nodes
+clear
+kubectl get pods
+sudo systemctl status kubelet
+sudo docker ps | grep kube-apiserver   # if using Docker
+cd ~/.kube/
+ls
+cat config
+sudo systemctl status kubelet
+sudo journalctl -u kubelet --no-pager | tail -50
+sudo lsof -i :10250
+sudo lsof -i :10248
+sudo kill 1258
+sudo lsof -i :10250
+sudo lsof -i :10248
+kubectl get nodes
+k9s
+kubectl get pods --all-namespaces
+k9s
+clear
+kubectl get pods --all-namespaces
