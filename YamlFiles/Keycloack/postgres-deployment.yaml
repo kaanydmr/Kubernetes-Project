@@ -1,32 +1,31 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: postgres
+  name: logstash
+  namespace: default
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: postgres
+      app: logstash
   template:
     metadata:
       labels:
-        app: postgres
+        app: logstash
     spec:
       containers:
-      - name: postgres
-        image: postgres:16
-        env:
-        - name: POSTGRES_DB
-          value: keycloakdb
-        - name: POSTGRES_USER
-          value: keycloakuser
-        - name: POSTGRES_PASSWORD
-          value: yourStrongPassword
-        ports:
-        - containerPort: 5432
-        volumeMounts:
-        - name: postgres-data
-          mountPath: /var/lib/postgresql/data
+        - name: logstash
+          image: docker.elastic.co/logstash/logstash:7.17.10
+          ports:
+            - containerPort: 5044
+              name: beats
+            - containerPort: 9600
+              name: monitoring
+          volumeMounts:
+            - name: config
+              mountPath: /usr/share/logstash/pipeline
       volumes:
-      - name: postgres-data
-        emptyDir: {}
+        - name: config
+          configMap:
+            name: logstash-config
+

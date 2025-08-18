@@ -6,12 +6,17 @@ metadata:
 data:
   logstash.conf: |
     input {
-      beats {
-        port => 5044
+      file {
+        path => "/tmp/test.log"
+        start_position => "beginning"
+        sincedb_path => "/dev/null"
       }
     }
     output {
       elasticsearch {
         hosts => ["http://elasticsearch:9200"]
+        index => "test-index"
       }
+      stdout { codec => rubydebug }
     }
+
